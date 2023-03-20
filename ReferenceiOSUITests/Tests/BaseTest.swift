@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 
-internal class BaseTest: XCTestCase {
+class BaseTest: XCTestCase {
     static let app = XCUIApplication()
         
     override func setUp() {
